@@ -47,6 +47,6 @@ app.use('/api/v1/booking',bookingRoute);
 
 app.listen(port,()=>{
     connect();
-    console.log('server listening on port',port);
+    console.log(`server listening on port ${port}`);
     
 })
